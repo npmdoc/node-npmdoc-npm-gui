@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"npm-gui",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "npm-gui",
+    "description": "api documentation for [npm-gui (v0.3.1)](https://github.com/q-nick/npm-gui#readme) [![npm package](https://img.shields.io/npm/v/npmdoc-npm-gui.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-npm-gui) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-npm-gui.svg)](https://travis-ci.org/npmdoc/node-npmdoc-npm-gui)",
     "devDependencies": {
-        "npm-gui": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "npm-gui": "*",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-npm-gui",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-npm-gui",
+    "keywords": [
+        "documentation",
+        "npm-gui"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_npm_gui.js",
+    "name": "npmdoc-npm-gui",
+    "nameAlias": "npmdoc_npm_gui",
+    "nameOriginal": "npmdoc-npm-gui",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-npm-gui"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
     "version": "0.0.1"
 }
