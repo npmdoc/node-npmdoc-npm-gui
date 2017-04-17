@@ -1,9 +1,11 @@
 # api documentation for  [npm-gui (v0.3.1)](https://github.com/q-nick/npm-gui#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-npm-gui.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-npm-gui) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-npm-gui.svg)](https://travis-ci.org/npmdoc/node-npmdoc-npm-gui)
 #### Graphic User Interface for NPM packages/tasks for front and back -end users.
 
-[![NPM](https://nodei.co/npm/npm-gui.png?downloads=true)](https://www.npmjs.com/package/npm-gui)
+[![NPM](https://nodei.co/npm/npm-gui.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/npm-gui)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-npm-gui/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-npm-gui_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-npm-gui/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-npm-gui/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-npm-gui/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-npm-gui/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-npm-gui/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-npm-gui/build/screenCapture.npmPackageListing.svg)
 
@@ -74,13 +76,11 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "q-nick",
-            "email": "qnick.mail@gmail.com"
+            "name": "q-nick"
         }
     ],
     "name": "npm-gui",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/q-nick/npm-gui.git"
@@ -95,16 +95,6 @@
     "version": "0.3.1"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module npm-gui](#apidoc.module.npm-gui)
-
-
-
-# <a name="apidoc.module.npm-gui"></a>[module npm-gui](#apidoc.module.npm-gui)
 
 
 
