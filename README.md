@@ -1,4 +1,7 @@
-# api documentation for  [npm-gui (v0.3.1)](https://github.com/q-nick/npm-gui#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-npm-gui.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-npm-gui) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-npm-gui.svg)](https://travis-ci.org/npmdoc/node-npmdoc-npm-gui)
+# npmdoc-npm-gui
+
+#### basic api documentation for  [npm-gui (v0.3.1)](https://github.com/q-nick/npm-gui#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-npm-gui.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-npm-gui) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-npm-gui.svg)](https://travis-ci.org/npmdoc/node-npmdoc-npm-gui)
+
 #### Graphic User Interface for NPM packages/tasks for front and back -end users.
 
 [![NPM](https://nodei.co/npm/npm-gui.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/npm-gui)
